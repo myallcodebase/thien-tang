@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-Content \"C:\\\\Users\\\\Administrator\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\d--Dev-Ronan-Portfolio\\\\7dda23ed-91ef-4e85-a4d4-c4a88191374f\\\\tasks\\\\bsenhowmo.output\" -Wait -Tail 20)",
+      "Bash(Select-String -Pattern \"ready|error|started|localhost|warn|Error\" --SimpleMatch)",
+      "Bash(grep -o \"Patrick Obermeier[^\\\\\\\\\\\\\\\\]*\" \"d:/Dev/Portfolio/Thien/src/mocks/pages/imprint.json\")"
+    ]
+  }
+}
