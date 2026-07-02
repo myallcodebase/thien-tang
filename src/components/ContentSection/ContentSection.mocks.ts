@@ -5,7 +5,7 @@ const mockData: ContentSectionProps = {
   heading: "Featured Personal Projects",
   htmlId: "portfolio",
   description:
-    "Below you can find a selection of personal projects I've been working on recently. For these you can check out both the code and a live version of the project. If you're interested in my work you're welcome to check out the other public repositories [on my GitHub profile.](https://github.com/mircle0816) Additionally, you can find an excerpt of my professional work [in the next section](#work-excerpts).",
+    "Below you can find a selection of personal projects I've been working on recently. For these you can check out both the code and a live version of the project. If you're interested in my work you're welcome to check out the other public repositories [on my GitHub profile.](https://github.com/myallcodebase) Additionally, you can find an excerpt of my professional work [in the next section](#work-excerpts).",
   dynamicContent: [
     {
       __typename: "ProjectGridRecord",
@@ -19,7 +19,7 @@ const mockData: ContentSectionProps = {
             'Vintage Poker is a poker platform built with the MERN-stack and Socket.io. The "Styled Components"-library was used to build a UI with a custom look & feel. Localized content (DE & EN) is being managed & loaded from the Headless-CMS Contentful.',
           projectType: "personal",
           liveLink: "https://www.vintagepoker.net/",
-          repoLink: "https://github.com/mircle0816/vintage-poker",
+          repoLink: "https://github.com/myallcodebase/vintage-poker",
           showcaseImage: {
             url: "https://www.datocms-assets.com/60761/1641478217-project_personal_vintagepoker.jpg",
             responsiveImage: {
@@ -86,7 +86,7 @@ const mockData: ContentSectionProps = {
             "A social network for developers built with the MERN-stack. Backend-API is set-up with Node.js and Express including authentication using JWT web tokens. The app uses Redux for client-side state management.",
           projectType: "personal",
           liveLink: "https://www.devmeetup.net/",
-          repoLink: "https://github.com/mircle0816/devmeetup",
+          repoLink: "https://github.com/myallcodebase/devmeetup",
           showcaseImage: {
             url: "https://www.datocms-assets.com/60761/1641478184-project_personal_devmeetup.jpg",
             responsiveImage: {
@@ -158,7 +158,7 @@ const mockData: ContentSectionProps = {
             "SimplySticky is a full-CRUD Note-taking App build with React which is utilizing cloud functions to perform any of its backend functionality. Uses Netlify Identity as an external auth provider & Redux for internal state management.",
           projectType: "personal",
           liveLink: "https://www.simplysticky.net/",
-          repoLink: "https://github.com/mircle0816/simply-sticky",
+          repoLink: "https://github.com/myallcodebase/simply-sticky",
           showcaseImage: {
             url: "https://www.datocms-assets.com/60761/1641478258-simplysticky.png",
             responsiveImage: {
@@ -230,7 +230,7 @@ const mockData: ContentSectionProps = {
             'A multiplayer variant of the famous game "Battleship" implemented with Node.js, Express & Socket.io. Notable features are a game lobby to create & join games, in-game chat & 2-player multiplayer.',
           projectType: "personal",
           liveLink: "https://battleship-websockets-game.herokuapp.com/",
-          repoLink: "https://github.com/mircle0816/battleship-websockets-game",
+          repoLink: "https://github.com/myallcodebase/battleship-websockets-game",
           showcaseImage: {
             url: "https://www.datocms-assets.com/60761/1641478178-project_personal_battleship.jpg",
             responsiveImage: {
@@ -287,7 +287,7 @@ const mockData: ContentSectionProps = {
             "This is a productivity app created using React Native. Users can create virtual decks of flashcards, build a library of questions and answers for a specific topic and challenge themselves by taking quizzes and documenting their learning progress.",
           projectType: "personal",
           liveLink: "https://snack.expo.io/@git/github.com/Pobermeier/reactnd-mobile-flashcards",
-          repoLink: "https://github.com/mircle0816/mobile-flashcards",
+          repoLink: "https://github.com/myallcodebase/mobile-flashcards",
           showcaseImage: {
             url: "https://www.datocms-assets.com/60761/1641478203-project_personal_flashcards.jpg",
             responsiveImage: {
@@ -337,7 +337,7 @@ const mockData: ContentSectionProps = {
             'An implementation of the popular "Would you rather..."-game that uses React for the UI-part and Redux for state management. The "backend" is implemented as an in-client DB + fake API endpoints.',
           projectType: "personal",
           liveLink: "https://would-you-rather-2020.netlify.app/",
-          repoLink: "https://github.com/mircle0816/would-you-rather",
+          repoLink: "https://github.com/myallcodebase/would-you-rather",
           showcaseImage: {
             url: "https://www.datocms-assets.com/60761/1641478226-project_personal_wouldyourather.jpg",
             responsiveImage: {
@@ -423,7 +423,7 @@ const mockData: ContentSectionProps = {
           },
           ctaType: "secondary",
           isExternalLink: true,
-          linkUrl: "https://github.com/mircle0816?tab=repositories",
+          linkUrl: "https://github.com/myallcodebase?tab=repositories",
         },
       ],
     },

@@ -64,23 +64,21 @@ const Navbar = ({ callToActions, navigationLinks, socialMediaIcons }: NavbarProp
     });
 
   const renderCallToActions = (onCloseCallback = noop, isFullWidth?: boolean) =>
-    callToActions?.[0]?.callToActions?.map(
-      ({ icon, id, isExternalLink, linkUrl, title }) => (
-        <Button
-          key={id}
-          text={title}
-          isFullWidth={isFullWidth}
-          isIconVisible={!isFullWidth}
-          type="primary"
-          as="a"
-          iconUrl={icon?.url}
-          iconNode={linkUrl === "#contact" ? <MailIcon className="h-6 w-6" /> : undefined}
-          isExternalLink={isExternalLink}
-          url={linkUrl}
-          onClick={onCloseCallback}
-        />
-      ),
-    );
+    callToActions?.[0]?.callToActions?.map(({ icon, id, isExternalLink, linkUrl, title }) => (
+      <Button
+        key={id}
+        text={title}
+        isFullWidth={isFullWidth}
+        isIconVisible={!isFullWidth}
+        type="primary"
+        as="a"
+        iconUrl={icon?.url}
+        iconNode={linkUrl === "#contact" ? <MailIcon className="h-6 w-6" /> : undefined}
+        isExternalLink={isExternalLink}
+        url={linkUrl}
+        onClick={onCloseCallback}
+      />
+    ));
 
   return (
     <Popover as="header" className="relative bg-white dark:bg-gray-900 shadow-lg dark:shadow-none">

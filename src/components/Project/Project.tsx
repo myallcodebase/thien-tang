@@ -25,7 +25,10 @@ const Project = ({
   imageUrl,
 }: Props) => {
   return (
-    <CardWithTopImage imageData={showcaseImage.responsiveImage as ResponsiveImageType} imageUrl={imageUrl}>
+    <CardWithTopImage
+      imageData={showcaseImage.responsiveImage as ResponsiveImageType}
+      imageUrl={imageUrl}
+    >
       <header className="flex">
         <div className="flex-shrink-0">
           <span className="sr-only">{title}</span>

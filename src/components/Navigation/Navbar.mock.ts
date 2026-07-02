@@ -26,15 +26,13 @@ const mockData: NavbarProps = {
     },
     {
       id: "94031963",
-      url: "https://github.com/mircle0816",
+      url: "https://github.com/myallcodebase",
       name: "GitHub",
       reactIconIdentifier: "github",
       icon: { url: "https://www.datocms-assets.com/60761/1641478154-icon_github.svg" },
     },
   ],
-  navigationLinks: [
-    { id: "94458330", isExternalLink: false, title: "About", url: "#about" },
-  ],
+  navigationLinks: [{ id: "94458330", isExternalLink: false, title: "About", url: "#about" }],
   callToActions: [
     {
       callToActions: [

@@ -15,10 +15,7 @@ const classNames = {
 
 const ContactForm = ({ ctaButtonText, id }: Props) => {
   return (
-    <form
-      name={`contact-form-${id}`}
-      className={classNames.form}
-    >
+    <form name={`contact-form-${id}`} className={classNames.form}>
       <div>
         <label htmlFor="first-name" className={classNames.label}>
           First Name

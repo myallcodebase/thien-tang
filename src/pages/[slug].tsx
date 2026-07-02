@@ -77,7 +77,7 @@ const Page = ({ data, isPreview, deactivatePreviewMode, posts }: Props) => {
     const filteredNavLinks = navigationLinks.filter((link) => link.url !== "/blog");
     const patchedIcons = socialMediaIcons.map((icon) =>
       icon.reactIconIdentifier === "github"
-        ? { ...icon, url: "https://github.com/mircle0816" }
+        ? { ...icon, url: "https://github.com/myallcodebase" }
         : icon,
     );
 
@@ -111,21 +111,23 @@ const Page = ({ data, isPreview, deactivatePreviewMode, posts }: Props) => {
       header={navbar && renderNavbar()}
       footer={footer && renderFooter()}
     >
-      {sections?.filter((section) => !("htmlId" in section && section.htmlId === "work-excerpts")).map((section) => {
-        const patchedSection = JSON.parse(
-          JSON.stringify(section).replace(
-            /https:\/\/github\.com\/Pobermeier\?tab=repositories/g,
-            "https://github.com/mircle0816",
-          ),
-        );
-        return (
-          <CmsComponentMapper
-            key={section.id}
-            typeName={section.__typename}
-            componentProps={{ ...patchedSection, posts: allBlogPosts }}
-          />
-        );
-      })}
+      {sections
+        ?.filter((section) => !("htmlId" in section && section.htmlId === "work-excerpts"))
+        .map((section) => {
+          const patchedSection = JSON.parse(
+            JSON.stringify(section).replace(
+              /https:\/\/github\.com\/Pobermeier\?tab=repositories/g,
+              "https://github.com/myallcodebase",
+            ),
+          );
+          return (
+            <CmsComponentMapper
+              key={section.id}
+              typeName={section.__typename}
+              componentProps={{ ...patchedSection, posts: allBlogPosts }}
+            />
+          );
+        })}
     </Layout>
   );
 };

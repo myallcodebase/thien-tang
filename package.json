@@ -91,15 +91,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mircle0816/pobermeier-portfolio-v3.git"
+    "url": "git+https://github.com/myallcodebase/pobermeier-portfolio-v3.git"
   },
   "engines": {
     "node": ">=18"
   },
   "bugs": {
-    "url": "https://github.com/mircle0816/pobermeier-portfolio-v3.git/issues"
+    "url": "https://github.com/myallcodebase/pobermeier-portfolio-v3.git/issues"
   },
-  "homepage": "https://github.com/mircle0816/pobermeier-portfolio-v3.git#readme",
+  "homepage": "https://github.com/myallcodebase/pobermeier-portfolio-v3.git#readme",
   "resolutions": {
     "webpack": "^5"
   }

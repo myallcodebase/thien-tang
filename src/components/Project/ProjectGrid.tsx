@@ -14,12 +14,12 @@ export interface ProjectGridProps {
 type ProjectOverride = Partial<Project> & { imageUrl?: string };
 
 const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
-  "DevMeetup": {
+  DevMeetup: {
     title: "React Native Boilerplate",
     subTitle: "Modern React Native Starter Template",
     description:
       "A production-ready React Native starter with Expo SDK 54, TypeScript, Redux Toolkit, file-based routing via Expo Router, CI/CD with GitHub Actions, and pre-configured ESLint, Prettier, and Jest for rapid project kickoff.",
-    repoLink: "https://github.com/mircle0816/react-native-boilerplate.git",
+    repoLink: "https://github.com/myallcodebase/react-native-boilerplate.git",
     liveLink: "",
     imageUrl:
       "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?auto=format&fit=crop&w=1280&q=80",
@@ -49,12 +49,12 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
       },
     ],
   },
-  "Flashcards": {
+  Flashcards: {
     title: "React Todo App",
     subTitle: "Task Management App",
     description:
       "A front-end task management app built with React and TypeScript using Vite. Users can add, complete, and delete to-do items. Includes end-to-end tests with Cypress and code quality tooling via ESLint and Prettier.",
-    repoLink: "https://github.com/mircle0816/react-todoApp",
+    repoLink: "https://github.com/myallcodebase/react-todoApp",
     liveLink: "https://react-todo-phix.netlify.app/",
     imageUrl:
       "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=1280&q=80",
@@ -89,7 +89,7 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
     subTitle: "Java Networking Applications",
     description:
       "A collection of Java networking applications covering file transfer, network performance analysis, reliable client-server communication, and a time server — built as hands-on exercises in data communication protocols.",
-    repoLink: "https://github.com/mircle0816/Data-communication-network.git",
+    repoLink: "https://github.com/myallcodebase/Data-communication-network.git",
     liveLink: "",
     imageUrl:
       "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1280&q=80",
@@ -109,7 +109,7 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
     subTitle: "Personalized Financial Planning API",
     description:
       "A fintech solution for personalized financial planning built for the hack2skill Humanize Fintech hackathon. Features JWT authentication, MongoDB persistence, Swagger API docs, and a Python AI/GPT financial component.",
-    repoLink: "https://github.com/mircle0816/fintech-api.git",
+    repoLink: "https://github.com/myallcodebase/fintech-api.git",
     liveLink: "",
     imageUrl:
       "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1280&q=80",
@@ -144,12 +144,12 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
       },
     ],
   },
-  "SimplySticky": {
+  SimplySticky: {
     title: "Healthcare React Native App",
     subTitle: "React Native Doctor App",
     description:
       "A React Native mobile app for healthcare with 40+ screens covering doctor browsing & search, appointment scheduling, and patient profile management. Built as a freelance project with React Navigation and a clean UI.",
-    repoLink: "https://github.com/mircle0816/healthcare-react-native.git",
+    repoLink: "https://github.com/myallcodebase/healthcare-react-native.git",
     liveLink: "",
     imageUrl:
       "https://images.unsplash.com/photo-1776104501583-3c83f2adfc3d?auto=format&fit=crop&w=1280&q=80",
@@ -179,7 +179,7 @@ const PROJECT_OVERRIDES: Record<string, ProjectOverride> = {
     subTitle: "Full-Featured Online Shopping Platform",
     description:
       "A full-featured ecommerce platform built with the MERN stack. Includes product search, filtering & pagination, shopping cart, user profiles with order history, an admin dashboard, product reviews, and secure checkout via Razorpay.",
-    repoLink: "https://github.com/mircle0816/MERN-ecommerce",
+    repoLink: "https://github.com/myallcodebase/MERN-ecommerce",
     liveLink: "https://mern-shop-abxs.onrender.com/",
     projectLogo: {
       url: "https://cdn.simpleicons.org/mongodb/47A248",

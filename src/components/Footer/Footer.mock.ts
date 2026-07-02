@@ -37,7 +37,7 @@ const mockData: FooterProps = {
     },
     {
       id: "94031963",
-      url: "https://github.com/mircle0816",
+      url: "https://github.com/myallcodebase",
       name: "GitHub",
       reactIconIdentifier: "github",
       icon: { url: "https://www.datocms-assets.com/60761/1641478154-icon_github.svg" },

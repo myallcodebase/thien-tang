@@ -23,9 +23,9 @@ const config = {
     email: "mailto:thientangcurren@gmail.com",
     fakeEmail: "mailto:thientangcurren@gmail.com",
     linkedIn: "https://www.linkedin.com/in/thien-tang-99a7843b9/",
-    github: "https://github.com/mircle0816",
+    github: "https://github.com/myallcodebase",
     twitter: "",
-    websiteRepo: "https://github.com/mircle0816",
+    websiteRepo: "https://github.com/myallcodebase",
   },
 };
 

@@ -23,10 +23,10 @@ export interface HeroSectionProps {
 }
 
 const HERO_IMAGES = [
-  "https://images.unsplash.com/photo-1562071707-7249ab429b2a?auto=format&fit=crop&w=1920&q=80",
-  "https://images.unsplash.com/photo-1617629927392-f6afae49ad61?auto=format&fit=crop&w=1920&q=80",
-  "https://images.unsplash.com/photo-1732210038531-9cefab37885a?auto=format&fit=crop&w=1920&q=80",
-  "https://images.unsplash.com/photo-1570393597884-ba37bef04adc?auto=format&fit=crop&w=1920&q=80",
+  "https://images.unsplash.com/photo-1562071707-7249ab429b2a1?auto=format&fit=crop&w=1920&q=80",
+  "https://images.unsplash.com/photo-1617629927392-f6afae49ad611?auto=format&fit=crop&w=1920&q=80",
+  "https://images.unsplash.com/photo-1732210038531-9cefab37885a1?auto=format&fit=crop&w=1920&q=80",
+  "https://images.unsplash.com/photo-1570393597884-ba37bef04adc1?auto=format&fit=crop&w=1920&q=80",
 ];
 
 const HeroSection = ({ heading, subHeading, callToActions }: HeroSectionProps) => {
